@@ -6,7 +6,7 @@ public class ExemploFor {
         try {
             Thread.sleep(1000); // Atraso inicial de 1 segundo
         } catch (InterruptedException e) {
-            e.printStackTrace();
+            e.printStackTrace(); //Imprime informações sobre a exceção no console.
         }
 
         for (int carneirinhos = 1; carneirinhos <= 20; carneirinhos++) {
